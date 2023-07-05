@@ -247,6 +247,12 @@ img.loading {
     padding: 1em;
 }
 
+.output-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .output-img-container>img {
     max-width: 100%;
     border-radius: var(--border-rad-lg);
