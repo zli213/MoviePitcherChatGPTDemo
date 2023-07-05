@@ -1,4 +1,4 @@
-# Movie Pitch Generator with OpenAI API
+# MoviePitcherChatGPTDemo
 
 Movie Pitch Generator is a web application and API that generates compelling movie pitches from your single-sentence movie concepts using OpenAI's GPT-X model. It provides an intuitive UI for users to input their movie concepts and get detailed movie pitches including a captivating title, a gripping synopsis, the choice of the cast, an illustrative movie poster, and a brief image description for advertisement purposes.
 
