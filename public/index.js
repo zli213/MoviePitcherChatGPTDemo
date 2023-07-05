@@ -1,4 +1,3 @@
-
 const setupInputContainer = document.getElementById('setup-input-container')
 const movieBossText = document.getElementById('movie-boss-text')
 
@@ -42,7 +41,6 @@ async function fetchSynopsis(prompt) {
         document.getElementById('output-text').innerHTML = synopsis
         fetchMovieTitle(synopsis)
         fetchStars(synopsis)
-        // document.getElementById('output-container').style.display = 'block'
     } catch (error) {
         console.error('Error:', error);
     }

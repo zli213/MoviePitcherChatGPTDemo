@@ -35,9 +35,6 @@ app.post('/api/create-completion', async (req, res) => {
       `,
       temperature: 1,
       max_tokens: 60,
-      // top_p: 1,
-      // frequency_penalty: 0,
-      // presence_penalty: 0,
     });
 
     res.json(response.data);
@@ -59,19 +56,8 @@ app.post('/api/get-synopsis', async (req, res) => {
       outline: ${prompt}
       synopsis: 
       `,
-      // prompt: `Given the task '${prompt}', please generate a to-do list in markdown format, following the structure given below:
-      // - [ ] Task: Task Name
-      //     - Date: (input date)
-      //     - [ ] Subtask 1
-      //     - [ ] Subtask 2
-      //     - [ ] Subtask 3
-      //     - [ ] Subtask 4
-      // If the granularity of the subtasks is still large, please further decompose them into smaller parts. However, the decomposition should not exceed two levels.`,
       temperature: 1,
       max_tokens: 700,
-      // top_p: 1,
-      // frequency_penalty: 0,
-      // presence_penalty: 0,
     });
     res.json(response.data);
   } catch (error) {
